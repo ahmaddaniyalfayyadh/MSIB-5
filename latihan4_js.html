@@ -1,0 +1,27 @@
+<script>
+    let pelanggan = "daniyal";
+    let tot_belanja = 150000;
+    let ket = "";
+
+    if (tot_belanja > 100000) {
+        ket = "selamat " + pelanggan + " anda mendapatkan hadiah";
+    }
+    else {
+        ket = "terimakasih" + pelanggan + "sudah berbelanja";
+    }
+
+    document.write("atas nama pelanggan " + pelanggan + " dengan total belanja" + tot_belanja + " keterangan<br>" + ket);
+</script>
+
+<script>
+    let siswa = "Budi Santoso";
+    let nilai = 60;
+
+    let keterangan = (nilai >= 60) ? "LULUS" : "TIDAK LULUS";
+    document.write("<br>Siswa bernama " + siswa +
+        " dengan nilai " + nilai +
+        " dinyatakan " + keterangan);
+
+
+
+</script>
